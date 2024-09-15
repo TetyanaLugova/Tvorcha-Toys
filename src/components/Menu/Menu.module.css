@@ -1,0 +1,10 @@
+.list{
+    display: flex;
+    gap: 12px;
+    font-size: 18px;
+  }
+  .item {
+    border: 1px solid rgb(253, 149, 13);
+    border-radius: 6px;
+    padding: 4px;
+  }
