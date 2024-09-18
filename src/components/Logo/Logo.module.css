@@ -1,8 +1,26 @@
 .logo {
-    color: black;
-    font-size: 24px;
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.span {
+  font-style: italic;
+  color: rgb(253, 149, 13);
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .logo {
+    display: block; 
+    font-size: 20px; 
+    line-height: 1.2; 
   }
+
   .span {
-    font-style: italic;
-    color: rgb(253, 149, 13);
+    display: block; 
   }
+}
+
+
+
+

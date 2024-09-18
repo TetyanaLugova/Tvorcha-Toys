@@ -1,10 +1,49 @@
-.list{
-    display: flex;
-    gap: 12px;
-    font-size: 18px;
+.menuWrap {
+  position: relative;
+  display: inline-block;
+}
+  
+  .menuButton {
+    color: rgb(9, 9, 9);
+    background-color: inherit;
+    font-size: 16px;
+    font-family: "Lora", sans-serif;
+    cursor: pointer;
+    border: none;
   }
+
+  .icon {
+    width: 28px;
+    height: 28px;
+    color: rgb(253, 149, 13);
+}
+  
+  .list {
+    position: absolute;
+    top: 100%; 
+    z-index: 1000; 
+    min-width: 100px;
+    list-style: none;
+    padding: 0;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(253, 149, 13, 0.5); 
+    display: none;
+  }
+  
   .item {
-    border: 1px solid rgb(253, 149, 13);
-    border-radius: 6px;
-    padding: 4px;
+    padding: 4px 8px;
+  }
+ 
+  .item a {
+    text-decoration: none;
+    color: rgb(9, 9, 9)
+  }
+  
+  .item a:hover {
+    color: rgb(253, 149, 13);
+  }
+  
+  .menuWrap:hover .list {
+    display: block;
   }
