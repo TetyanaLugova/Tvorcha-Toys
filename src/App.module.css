@@ -1,8 +1,13 @@
-.img{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
-    url('./img/фонове.jpg'); /* Спільне фонове зображення */
-  background-size: cover; /* Масштабування зображення на весь контейнер */
-  background-position: center; /* Центрування зображення */
-  background-attachment: fixed; /* Фон залишається на місці при скролі */
-  min-height: 800px; /* Мінімальна висота, щоб фон покривав екран */
+.img {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url('./img/фонове.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 800px;
+  max-width: 100%;
 }

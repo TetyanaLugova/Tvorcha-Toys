@@ -1,11 +1,11 @@
 :root {
-  font-family: "Lora", sans-serif;
+  font-family: 'Lora', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: #f4e8e1d2;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,6 +17,7 @@
 body {
   letter-spacing: 0.04em;
   color: #000;
+  margin: 0px;
 }
 
 h1,
@@ -50,7 +51,7 @@ a {
 
 button {
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 
