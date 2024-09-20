@@ -22,10 +22,12 @@
     .icon {
         width: 28px;
         height: 28px;
-        /* color: rgb(253, 149, 13); */
+        color: rgb(253, 149, 13, 0.7); 
+
     }
 }
 
 .icon:hover{
     color: rgb(253, 149, 13);
+   
 }

@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 } */
+
+/* .backround{
+  min-height: 850px;
+    background-color: #1c1d20;
+    background-image: linear-gradient(
+        to top,
+        rgba(17, 19, 31, 0.31) 35.12%,
+        rgba(17, 19, 31, 0) 50.94%
+      ),
+      url("../src/img/фонове.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
