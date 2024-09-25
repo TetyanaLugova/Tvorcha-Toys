@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import css from './App.module.css';
 import AboutMe from './components/AboutMe/AboutMe';
+import MasterClass from './components/MasterClass/MasterClass';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Hero />
       </div>
       <AboutMe />
+      <MasterClass />
       <Routes>
         <Route path="/" element={<div />} />
       </Routes>
