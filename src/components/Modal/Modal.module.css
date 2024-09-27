@@ -1,0 +1,60 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1500;
+  overflow-y: scroll;
+}
+
+.modalContent {
+  /* padding: 24px 12px; */
+  width: 600px;
+  height: 60%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Тінь для об'єму */
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1500;
+  color: rgb(58, 57, 57);
+  background-color: #f4e8e1;
+  overflow-y: auto;
+  padding: 26px; /* Загальні відступи */
+  padding-bottom: 60px; /* Зберігаємо нижній падинг */
+}
+
+.modalContent::after {
+  content: '';
+  display: block;
+  height: 20px; /* Додатковий відступ внизу */
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  position: fixed;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  z-index: 1550;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  fill: rgb(253, 149, 13);
+  z-index: 100;
+}
+
+@media screen and (min-width: 768px) {
+  .modalContent {
+    padding: 32px 24px;
+  }
+}

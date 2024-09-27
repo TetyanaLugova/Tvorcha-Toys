@@ -1,6 +1,5 @@
 @media screen and (min-width: 320px) {
   .container {
-    /* padding-top: 20px; */
     padding-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -16,7 +15,6 @@
     color: rgb(58, 57, 57);
     text-transform: uppercase;
     margin-bottom: 16px;
-    /* margin-top: 20px; */
   }
 
   .text {
@@ -45,6 +43,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: antiquewhite;
+  }
+  .item:hover {
+    box-shadow: 0px 0px 10px 5px rgba(238, 147, 63, 0.7),
+      0px 0px 25px 10px rgba(239, 156, 40, 0.5),
+      0px 0px 30px 15px rgba(46, 47, 66, 0.3);
   }
   .img {
     width: 100%;
@@ -144,14 +148,16 @@
   .item {
     width: calc((100% - 48px) / 3);
     border-radius: 8px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    box-shadow: 0px 2px 1px 0px rgba(220, 161, 113, 0.08),
       0px 1px 1px 0px rgba(46, 47, 66, 0.16),
       0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     padding-bottom: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: antiquewhite;
   }
+
   .img {
     width: 100%;
     border-radius: 8px 8px 0px 0px;
@@ -173,11 +179,12 @@
     min-height: 36px;
   }
   .textMc {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    text-align: center;
+    text-align: start;
+    justify-content: center;
     color: rgb(58, 57, 57);
-    max-width: 180px;
+    max-width: 160px;
   }
   .wrapBtn {
     display: flex;
@@ -256,6 +263,12 @@
     flex-direction: column;
     justify-content: space-between;
   }
+  .item:hover {
+    box-shadow: 0px 0px 15px 5px rgba(238, 147, 63, 0.7),
+      0px 0px 25px 10px rgba(239, 156, 40, 0.5),
+      0px 0px 30px 15px rgba(46, 47, 66, 0.3);
+  }
+
   .img {
     width: 100%;
     border-radius: 8px 8px 0px 0px;
@@ -292,7 +305,6 @@
     width: 146px;
     height: 48px;
     background-color: rgb(253, 149, 13, 0.7);
-    /* border: 1px solid rgb(4, 4, 4); */
     border: none;
     border-radius: 8px;
     margin-left: auto;
