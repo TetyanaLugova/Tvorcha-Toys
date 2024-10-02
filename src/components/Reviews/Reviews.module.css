@@ -1,0 +1,121 @@
+@media screen and (min-width: 320px) {
+  .wrap {
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 20px;
+  }
+  .wrapTitle {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon {
+    color: rgb(253, 149, 13);
+    width: 24px;
+    height: 24px;
+  }
+  .title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    color: rgb(58, 57, 57);
+    text-transform: uppercase;
+  }
+  .card {
+    border-radius: 12px;
+    border-bottom: 1px solid rgb(252, 187, 101);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+    max-height: 260px;
+  }
+  .name {
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  .titleForm {
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: rgb(58, 57, 57);
+    margin-bottom: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    font-style: italic;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .input {
+    width: 260px;
+    border-radius: 8px;
+    padding: 12px;
+    height: 30px;
+    background-color: #f7f7f7;
+    border: none;
+  }
+  .input::placeholder {
+    font-family: 'Lora', sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    /* letter-spacing: 0.02em; */
+    font-weight: 400;
+    color: rgb(99, 97, 97);
+  }
+  .inputComent {
+    width: 260px;
+    border-radius: 8px;
+    padding: 12px;
+    height: 60px;
+    background-color: #f7f7f7;
+    border: none;
+  }
+  .inputComent::placeholder {
+    font-family: 'Lora', sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    /* letter-spacing: 0.02em; */
+    font-weight: 400;
+    color: rgb(99, 97, 97);
+  }
+  .btn {
+    width: 280px;
+    height: 40px;
+    background-color: rgb(253, 149, 13, 0.7);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-family: 'Lora', sans-serif;
+    color: rgb(56, 55, 54);
+    text-transform: uppercase;
+    border: none;
+  }
+  .iconBtn {
+    color: rgb(56, 55, 54);
+  }
+}
