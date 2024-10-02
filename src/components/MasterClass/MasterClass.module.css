@@ -103,6 +103,9 @@
     color: rgb(56, 55, 54);
     text-transform: uppercase;
   }
+  .btn:hover {
+    background-color: rgb(253, 149, 13);
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -114,7 +117,6 @@
     padding-right: 20px;
     max-width: 1440px;
   }
-
   .title {
     text-align: center;
     font-size: 34px;
@@ -127,7 +129,6 @@
     margin-top: 24px;
     font-size: 34px;
   }
-
   .text {
     font-size: 28px;
     font-weight: 500;
