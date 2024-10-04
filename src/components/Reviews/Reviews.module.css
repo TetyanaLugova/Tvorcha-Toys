@@ -101,6 +101,7 @@
     height: 60px;
     background-color: #f7f7f7;
     border: none;
+    resize: none;
   }
   .inputComent::placeholder {
     font-family: 'Lora', sans-serif;
