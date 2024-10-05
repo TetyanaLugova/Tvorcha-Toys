@@ -1,5 +1,4 @@
 import css from './Footer.module.css';
-import Logo from '../Logo/Logo';
 import { FaTelegram } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa6';
 import { IoShieldCheckmark } from 'react-icons/io5';
